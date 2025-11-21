@@ -97,8 +97,8 @@ export default function LandingPage() {
           gridVariant="three-columns-all-equal-width"
           animationType="blur-reveal"
           textboxLayout="default"
-          titleClassName="text-4xl font-light tracking-wide"
-          descriptionClassName="text-lg font-light opacity-80"
+          textBoxTitleClassName="text-4xl font-light tracking-wide"
+          textBoxDescriptionClassName="text-lg font-light opacity-80"
           cardNameClassName="text-sm font-light tracking-wide uppercase"
           cardPriceClassName="text-2xl font-light tracking-tight"
         />
@@ -126,7 +126,7 @@ export default function LandingPage() {
           ]}
           showStepNumbers={false}
           textboxLayout="default"
-          titleClassName="text-4xl font-light tracking-wide"
+          textBoxTitleClassName="text-4xl font-light tracking-wide"
           featureTitleClassName="text-2xl font-light tracking-wide"
           featureDescriptionClassName="text-base font-light opacity-80"
         />
@@ -177,8 +177,8 @@ export default function LandingPage() {
           gridVariant="four-items-2x2-equal-grid"
           animationType="scale-rotate"
           textboxLayout="default"
-          titleClassName="text-4xl font-light tracking-wide"
-          descriptionClassName="text-lg font-light opacity-80"
+          textBoxTitleClassName="text-4xl font-light tracking-wide"
+          textBoxDescriptionClassName="text-lg font-light opacity-80"
           nameClassName="text-sm font-light tracking-wide"
           roleClassName="text-xs font-light opacity-70"
         />
