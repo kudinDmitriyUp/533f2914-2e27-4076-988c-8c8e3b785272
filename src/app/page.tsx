@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -28,7 +28,6 @@ export default function LandingPage() {
         <NavbarLayoutFloatingOverlay
           brandName="Yamada Resort"
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763741621614-rdd7cw7g.jpg"
-          logoAlt="Yamada Resort Logo"
           navItems={[
             { name: "Experience", id: "experience" },
             { name: "Rooms", id: "rooms" },
@@ -37,8 +36,6 @@ export default function LandingPage() {
             { name: "Contact", id: "contact" }
           ]}
           button={{ text: "Reserve Now", href: "contact" }}
-          buttonClassName="px-6 py-2"
-          buttonTextClassName="font-light tracking-wide"
         />
       </div>
       
@@ -96,7 +93,7 @@ export default function LandingPage() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763741625276-bos7zg62.jpg",
               imageAlt: "Private garden pavilion accommodation"
             }
-          ]
+          ]}
           gridVariant="three-columns-all-equal-width"
           animationType="blur-reveal"
           textboxLayout="default"
